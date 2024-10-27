@@ -51,17 +51,17 @@ public class PacMan extends JPanel implements ActionListener, KeyListener {
                     this.velocityY = -tileSize/4;
                     break;
                 }
-                case 'D' {
+                case 'D': {
                     this.velocityX = 0;
                     this.velocityY = tileSize/4;
                     break;
                 }
-                case 'L' {
+                case 'L': {
                     this.velocityX = -tileSize/4;
                     this.velocityY = 0;
                     break;
                 }
-                case 'R' {
+                case 'R': {
                     this.velocityX = tileSize/4;
                     this.velocityY = 0;
                     break;
